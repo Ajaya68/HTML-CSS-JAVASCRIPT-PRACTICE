@@ -1,0 +1,45 @@
+body {
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+article {
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  box-shadow: 2px 3px 3px gray;
+  width: 200px;
+  height: 350px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  /* NEW: Make article a flex column */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+img {
+  /* width: 100%; */
+  margin: 10px auto; /*centre the image*/
+  width: 100%;
+  max-height: 200px; /* adjust based on your content */
+  object-fit: contain;
+}
+
+/* Remove position:static; bottom:5px; – use margin-top:auto */
+button {
+  width: 100%;
+  margin-top: auto; /* Pushes button to the bottom of the flex column */
+  padding: 8px 0;
+  cursor: pointer;
+}
+p {
+  margin-top: auto;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
