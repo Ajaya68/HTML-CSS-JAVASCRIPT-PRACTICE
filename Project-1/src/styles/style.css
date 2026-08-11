@@ -1,0 +1,7 @@
+body {
+  height: 100vh;
+}
+.displayData {
+  text-overflow: auto;
+  overflow-y: auto;
+}

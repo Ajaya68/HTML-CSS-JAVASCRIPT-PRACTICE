@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="src/styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap-icons/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body class="d-flex justify-content-center align-items-center">
+    <main class="d-flex border justify-content-center w-50 h-75">
+      <section class="border border-black p-3 w-50">
+        <form action="">
+          <div class="mb-3">
+            <label for="title" class="form-label"
+              >Title</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              name="title"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+            <!-- <div id="emailHelp" class="form-text">
+              We'll never share your email with anyone else.
+            </div> -->
+          </div>
+          <div class="mb-3">
+            <label for="description" class="form-label"
+              >Description</label
+            >
+            <textarea name="description" class="form-control" id=""></textarea>
+          </div>
+          <div class="mb-3 form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="exampleCheck1"
+            />
+            <label class="form-check-label" for="exampleCheck1"
+              >Check me out</label
+            >
+          </div>
+          <button type="submit" class="btn btn-primary submitButton">Submit</button>
+        </form>
+      </section>
+      <section class="displayData bg-dark text-light text-center fs-5 p-3 border border-black p-3 w-50">Display Data</section>
+    </main>
+    <script src="src/scripts/script.js"></script>
+  </body>
+</html>
